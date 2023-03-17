@@ -1,0 +1,11 @@
+Here's what I did:
+
+1. Write a function that imports the necessary libraries (NumPy, SciPy and PyDub) for audio processing and side-chain compression.
+2. Write a function that takes two file paths as input and returns the imported audio file objects using the PyDub library.
+3. Write a function that converts the imported audio files into NumPy arrays for further processing.
+4. Write a function that calculates the RMS (Root Mean Square) level for each.audio file using the SciPy library.
+5. Write a function that finds the side-chain compression threshold based on the RMS values of the imported audio.
+6. Write a function that applies side-chain compression to the first audio file by compressing it based on the threshold calculated from the second audio file.
+7. Write a function that converts the NumPy arrays back into an audio file format using the PyDub library.
+8. Write a function that exports the compressed audio file after side-chain compression to the specified output file path.
+9. Write a function that combines all the above functions to perform side-chain compression on one audio file based on another and returns the compressed audio file.
